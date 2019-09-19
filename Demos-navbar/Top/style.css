@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
+
 .navbar {
-    height: 100px !important
+    height: 110px !important
 }
 
 .nav-item {
-    margin-left: 25px !important
+    margin-left: 32px !important
+}
+
+.nav-link {
+    font-family: 'Crimson Text', serif;
+    font-size: large;
 }

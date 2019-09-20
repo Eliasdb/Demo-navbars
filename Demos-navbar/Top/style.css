@@ -1,14 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rosario&display=swap');
 
+/* changing entire navbar background colour */
 .navbar {
-    height: 110px !important
+    height: 110px !important;
+    background-color: xxxx  !important;
+}
+
+/* changing link colours */
+.nav-link {
+    font-family: 'Rosario', sans-serif;
+    font-size: large;
+    color: xxxx !important;
+}
+
+/* changing link colours on hover */
+.nav-link:hover {
+    color: xxxx !important;
 }
 
 .nav-item {
     margin-left: 32px !important
-}
-
-.nav-link {
-    font-family: 'Crimson Text', serif;
-    font-size: large;
 }

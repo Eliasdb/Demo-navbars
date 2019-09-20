@@ -2,18 +2,18 @@
 
 /* changing entire navbar background colour */
 .navbar {
-    background-color: lightblue  !important;
-}
-
-/* changing link colours on hover */
-.nav-link:hover {
-    color: xxxx !important;
+    background-color: xxxx  !important;
 }
 
 /* changing link colours */
 .nav-link {
     font-family: 'Rosario', sans-serif;
     font-size: large;
+    color: xxxx !important;
+}
+
+/* changing link colours on hover */
+.nav-link:hover {
     color: xxxx !important;
 }
 

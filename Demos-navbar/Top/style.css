@@ -2,8 +2,12 @@
 
 /* changing entire navbar background colour */
 .navbar {
-    height: 110px !important;
-    background-color: xxxx  !important;
+    background-color: lightblue  !important;
+}
+
+/* changing link colours on hover */
+.nav-link:hover {
+    color: xxxx !important;
 }
 
 /* changing link colours */
@@ -13,11 +17,46 @@
     color: xxxx !important;
 }
 
-/* changing link colours on hover */
-.nav-link:hover {
-    color: xxxx !important;
+.nav-link::before {
+    transition: 300ms;
+    content: "";
+    position: absolute;
+}
+
+.nav-link-ltr::before {
+    width: 0%;
+    margin-top: 10px;
+    bottom: 10px;
+}
+
+.nav-link-ltr:hover::before {
+    width: 100%;
 }
 
 .nav-item {
     margin-left: 32px !important
+}
+
+.nav-link {
+    text-decoration: none;
+    position: relative;
+    margin-top: 20px;
+
+}
+
+.nav-link::before {
+    transition: 300ms;
+    height: 2.5px;
+    content: "";
+    position: absolute;
+    background-color: #000000;
+}
+
+.nav-link-ltr::before {
+    width: 0%;
+    bottom: 5px;
+}
+
+.nav-link-ltr:hover::before {
+    width: 80%;
 }

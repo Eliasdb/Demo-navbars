@@ -2,14 +2,14 @@
 
 /* changing entire navbar background colour */
 .navbar {
-    background-color: #ff7f69  !important;
+    background-color: #e5f4fe  !important;
 }
 
 /* changing link colours */
 .nav-link {
     font-family: 'Rosario', sans-serif;
     font-size: large;
-    color: xxxx !important;
+    color: #ff7f69  !important;
 }
 
 /* changing link colours on hover */

@@ -17,6 +17,16 @@
     color: xxxx !important;
 }
 
+.nav-item {
+    margin-left: 32px !important
+}
+
+.nav-link {
+    text-decoration: none;
+    position: relative;
+    margin-top: 20px;
+
+}
 .nav-link::before {
     transition: 300ms;
     content: "";
@@ -33,17 +43,6 @@
     width: 100%;
 }
 
-.nav-item {
-    margin-left: 32px !important
-}
-
-.nav-link {
-    text-decoration: none;
-    position: relative;
-    margin-top: 20px;
-
-}
-
 .nav-link::before {
     transition: 300ms;
     height: 2.5px;
@@ -58,5 +57,5 @@
 }
 
 .nav-link-ltr:hover::before {
-    width: 80%;
+    width: 83%;
 }

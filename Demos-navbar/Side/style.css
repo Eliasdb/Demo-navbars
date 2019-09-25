@@ -30,7 +30,7 @@ body{
     color: #fff;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: -18px;
 }
 
 .wrapper .sidebar ul li{
@@ -43,6 +43,7 @@ body{
 .wrapper .sidebar ul li a{
     color: #bdb8d7;
     display: block;
+
 }
 
 .wrapper .sidebar ul li a .fas{
@@ -67,9 +68,9 @@ body{
 
 .wrapper .sidebar .social_media a{
     display: block;
-    width: 40px;
+    width: 55px;
     background: #594f8d;
-    height: 40px;
+    height: 45px;
     line-height: 45px;
     text-align: center;
     margin: 0 5px;
@@ -84,10 +85,10 @@ body{
 }
 
 .wrapper .main_content .header{
-    padding: 83px;
+    padding: 20px;
     background: #fff;
     color: #717171;
-    height: 100px;
+    height: 80px;
     border-bottom: 1px solid #e0e4e8;
 }
 
@@ -99,4 +100,45 @@ body{
 
 .wrapper .main_content .info div{
     margin-bottom: 20px;
+}
+
+.header {
+    position: relative;
+}
+
+#btn {
+    border: black;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: #A3B2D5;
+    color: #4A4275;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 20px;
+    margin-bottom: 12px;
+    margin-right: 10px;
+}
+
+#mail {
+    height: 35px;
+    width: 35px;
+    margin-top: 4px;
+}
+
+#chat {
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+}
+
+#img {
+    height: 60px;
+    width: 60px;
+    margin-top: -20px;
+    margin-left: 12px;
+}
+
+#logo {
+    height: 49px;
 }
